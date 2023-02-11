@@ -1,9 +1,12 @@
 import "./ItemListContainer.css";
+import { ItemList } from "../index";
 
-const ItemListContainer = (props) => {
-  const { greeting } = props;
-
-  return <div className="saludo">{greeting}</div>;
+const ItemListContainer = () => {
+  return (
+    <div>
+      <ItemList />
+    </div>
+  );
 };
 
 export default ItemListContainer;
